@@ -54,9 +54,22 @@ main{
       padding-left: 20px;
     }
     
-    input:hover:active{
+    input:focus{
       opacity: 100%;
     }
+    input:hover{
+      opacity: 100%;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    }
   }
-  
+  .container{
+    h1{
+      text-align: center;
+      margin-top: 20px;
+    }
+    .card{
+      background: ;
+
+    }
+  }
 }
